@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A user-function for creating Word reports in R</title>
+  </head>
+  <body>
+    <h1>A user-function for creating Word reports in R</h1>
+    <p>R can be used to create custom reports complete with tables and graphs. The packages needed to achieve this include `tidyverse` and `officer`.</p>
+    <h2>Getting Started</h2>
+    <p>To get started with creating reports in R, you'll need to install the appropriate packages. You can do this by running the following code in the R console:</p>
+    <pre><code>install.packages(c("tidyverse", "officer"))</code></pre>
+    <p>Once you have the packages installed, you can load them into your R session using the following code:</p>
+    <pre><code>library(ggplot2)
+library(tidyverse)
+library(officer)</code></pre>
+    <h2>Creating a Simple Report</h2>
+    <p>Let's create a simple report using the iris dataset that is available in R:</p>
+    <pre><code>library(tidyverse)
+iris_df <- iris</code></pre>
+    <p>Next, we'll create a basic summary the data:</p>
+    <pre><code>#create summary table, grouped by a specific variable
+rep = describeBy(iris_df, group=iris_df$Species)</code></pre>
+    <p>This will create a summary based on the species variable.</p>
+    <h2>Conclusion</h2>
+    <p>R is a powerful tool for creating reports. It's possible to create beautiful, informative reports using these packages.</p>
+  </body>
+</html>
