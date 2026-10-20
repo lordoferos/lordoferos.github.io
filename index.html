@@ -1,424 +1,146 @@
-<!DOCTYPE HTML>
-<!--
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Levi Orero</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Levi Orero</title>
+	<meta name="description" content="Levi Orero leads survey and evaluation work in agriculture and food systems across East Africa, and runs Wrangla360, a research and data quality consultancy in Nairobi." />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="wrap">
+			<a class="name" href="#top">Levi Orero</a>
+			<nav>
+				<a href="#work">Work</a>
+				<a href="#projects">Projects</a>
+				<a href="#publications">Publications</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+	<main id="top" class="wrap">
+		<section class="intro">
+			<p class="eyebrow">Surveys &amp; evaluation · Agriculture and food systems</p>
+			<h1>Hi, I'm Levi.</h1>
+			<p class="lead">I lead survey and evaluation work in agriculture and food systems, and I've been doing it for about eight years across Kenya, Uganda, Tanzania and Rwanda. That covers household surveys, impact evaluations, soil health assessments and field data collection, from the questionnaire all the way to the final analysis.</p>
+			<p class="actions">
+				<a class="button primary" href="https://wrangla360.com">Wrangla360</a>
+				<a class="button" href="#publications">Publications</a>
+			</p>
+		</section>
 
-				<!-- Wrapper -->
-					<div id="wrapper">
+		<section id="work">
+			<h2>Work</h2>
+			<p>Most of what I'm good at is the unglamorous part that decides whether a study holds up: instrument design, enumerator training, getting the same households back for the next round, and catching data problems while the team is still in the field instead of three months later. I currently run <a href="https://wrangla360.com">Wrangla360</a>, a research and data quality consultancy based in Nairobi.</p>
+			<p>Before Wrangla360, I was a data analyst on <a href="https://www.cifor-icraf.org/abcd/">asset-based community-driven development</a>, <a href="https://www.cgiar.org/initiative/agroecology/">agroecological transformation</a> and <a href="https://www.cgiar.org/news-events/news/the-measure-of-agroecology/">holistic metrics for agroecology</a>. My background is in statistics. I write most of my analysis in R, use Python when it's the better tool, and like maps more than is probably healthy.</p>
 
-						<!-- Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="content color0 span-3-75">
-									<h1 class="major">Hello, my name<br />
-									is Levi</h1>
-									<p>I'm a data enthusiast with a passion for open source projects and currently based in Kenya. I specialize in using R for data science and dabble in Python. Check out some of my work :)</p>
-									<ul class="actions">
-										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
-									</ul>
-								</div>
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/gambia_freq2.png" alt="" />
-								</div>
-							</section>
+			<dl class="toolbox">
+				<div><dt>Analysis</dt><dd>R, RStudio, Shiny, Python, Jupyter, Colab</dd></div>
+				<div><dt>Field data</dt><dd>ODK, KoboToolbox, SurveyCTO</dd></div>
+				<div><dt>Spatial</dt><dd>QGIS</dd></div>
+			</dl>
+		</section>
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight medium right" id="first">
-								<div class="content span-7">
-									<h2 class="major">Kenya Census 2019 Project</h2>
-									<p> <a href = "https://github.com/lordoferos/kenya_census" >This project uses data obtained from the rKenyaCensus package in R. rKenyaCensus contains the 2019 Kenya Population and Housing Census results. The results were released by the Kenya National Bureau of Statistics in February 2020, and published in four different pdf files (Volume 1 - Volume 4). This project is a showcase of the steps of data analysis process where we start from raw data to actionable insights. The process involves setting a problem statement, business use case, goals and metrics then finally show how the data has answered the question. The findings support the recommendation that mid-size e-commerce companies should focus on Nyeri, Kisumu and Machakos counties aside from Nairobi and Mombasa</a>.</p>
-								</div>
-								<div class="image filtered tinted" data-position="top left">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-							</section>
+		<section id="projects">
+			<h2>Projects</h2>
+			<ul class="cards">
+				<li>
+					<h3><a href="https://www.wrangla360.com">Evidence Engine</a></h3>
+					<p>Checks Kobo/ODK survey data while fieldwork is still running and produces signed evidence packages for donors. Built at Wrangla360; currently hosted there rather than open source.</p>
+				</li>
+				<li>
+					<h3><a href="https://github.com/Komondi/Modelling-fire-frequency-in-Kenya">Fire frequency modelling in Kenya</a></h3>
+					<p>Bayesian model for monthly fire counts. Published in <em>PLOS ONE</em> (2024).</p>
+				</li>
+				<li>
+					<h3><a href="https://github.com/lordoferos/pdf-app">PDF Toolkit</a></h3>
+					<p>A Shiny app for everyday PDF jobs: merge, split, extract and rotate pages. Runs locally, so files never leave your machine.</p>
+				</li>
+				<li>
+					<h3><a href="https://github.com/lordoferos/kenya_census">Kenya Census</a></h3>
+					<p>Working with the 2019 census data at sub-county level.</p>
+				</li>
+				<li>
+					<h3><a href="https://github.com/lordoferos/geo-spatial-analysis">Extracting climate data</a></h3>
+					<p>Pulling and processing gridded climate data for study sites.</p>
+				</li>
+			</ul>
+			<details>
+				<summary>Smaller and older things</summary>
+				<ul class="plain">
+					<li><a href="https://github.com/lordoferos/python-tweet-bot">Python tweeting bot</a></li>
+					<li><a href="https://github.com/lordoferos/rank_simulator">Post rank simulator</a></li>
+					<li><a href="https://github.com/lordoferos/tidy_tuesday32">Tidy Tuesday Week 32</a></li>
+					<li><a href="https://github.com/lordoferos/downloadcomics">Random Python projects</a></li>
+				</ul>
+			</details>
+		</section>
 
-						<!-- Panel -->
-							<section class="panel color1">
-								<div class="intro joined">
-									<h2 class="major">Twitter API Tweet Posting Project</h2>
-									<p> <a href = "https://github.com/lordoferos/python-tweet-bot">This project is designed to engage with the Twitter API and post tweets at regular intervals. It contains a series of scripts to interact with the Twitter API, and is an active project that is updated regularly. The project required access to the Twitter API and an access token to authenticate requests to the API. The code is able to post tweets at regular intervals, check tweets on a particular subject/hashtag etc.</a></p>
-								</div>
-								<div class="inner">
-									<ul class="grid-icons three connected">
-										<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
-										<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-										<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-										<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-										<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-									</ul>
-								</div>
-							</section>
+		<section id="publications">
+			<h2>Publications</h2>
+			<h3 class="sub">Selected peer-reviewed</h3>
+			<ul class="pubs">
+				<li><strong>Orero, L.</strong>, Omondi, O. E., &amp; Omolo, O. B. (2024). A Bayesian model for predicting monthly fire frequency in Kenya. <em>PLOS ONE</em>.</li>
+				<li>Fuchs, L. E., <strong>Orero, L.</strong>, Kipkorir, L. A., Apondi, V., &amp; Owili, S. O. (2024). Scaling models for Regreening Africa: enhancing agroecological integration through smallholders' assets and agency in Kenya. <em>Frontiers in Sustainable Food Systems</em>, 8, 1449615.</li>
+				<li>Bartoli, C., Annosi, M. C., <strong>Orero, L.</strong>, &amp; Brunetta, F. (2025). Crowdfunding for sustainability: Key elements driving crowdfunding success across economic, social, and environmental goals. <em>Finance Research Letters</em>, 107400.</li>
+				<li>Fuchs, L. E., <strong>Orero, L.</strong>, &amp; Apondi, V. A. (2021). How to stop wasting money in international development: Using a structured group selection approach to counter procedural inefficiency. <em>World Development Perspectives</em>, 24, 100364. <a href="https://www.sciencedirect.com/science/article/pii/S2452292921000801">Link</a></li>
+				<li>Fuchs, L. E., <strong>Orero, L.</strong>, Namoi, N., &amp; Neufeldt, H. (2019). How to effectively enhance sustainable livelihoods in smallholder systems: A comparative study from Western Kenya. <em>Sustainability</em>, 11(6), 1564. <a href="https://www.mdpi.com/2071-1050/11/6/1564">Link</a></li>
+			</ul>
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight large left">
-								<div class="content span-5">
-									<h2 class="major">Kenya MODIS Fire Hotspots Project</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
-								</div>
-								<div class="image filtered tinted" data-position="top right">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-							</section>
+			<details>
+				<summary>Full list</summary>
 
-						<!-- Panel -->
-							<section class="panel">
-								<div class="intro color2">
-									<h2 class="major">Elit integer</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
-								</div>
-								<div class="gallery">
-									<div class="group span-3">
-										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-									</div>
-									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-									<div class="group span-4-5">
-										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-									</div>
-									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-								</div>
-							</section>
+				<h3 class="sub">Journal articles and book chapters</h3>
+				<ol class="pubs">
+					<li>Bartoli, C., <strong>Orero, L.</strong>, &amp; Brunetta, F. (2026). The role of blockchain technology in agrifood systems. In J. Sarkis (Ed.), <em>The Palgrave Handbook of Blockchain Technology for Business</em>. Palgrave Macmillan. <a href="https://doi.org/10.1007/978-3-031-76014-3_10-1">doi:10.1007/978-3-031-76014-3_10-1</a></li>
+					<li>Bartoli, C., Annosi, M. C., <strong>Orero, L.</strong>, &amp; Brunetta, F. (2025). Crowdfunding for sustainability: Key elements driving crowdfunding success across economic, social, and environmental goals. <em>Finance Research Letters</em>, 107400.</li>
+					<li><strong>Orero, L.</strong>, Omondi, O. E., &amp; Omolo, O. B. (2024). A Bayesian model for predicting monthly fire frequency in Kenya. <em>PLOS ONE</em>.</li>
+					<li>Fuchs, L. E., <strong>Orero, L.</strong>, Kipkorir, L. A., Apondi, V., &amp; Owili, S. O. (2024). Scaling models for Regreening Africa: enhancing agroecological integration through smallholders' assets and agency in Kenya. <em>Frontiers in Sustainable Food Systems</em>, 8, 1449615.</li>
+					<li>Obwocha, E. B., Ramisch, J. J., Duguma, L., &amp; <strong>Orero, L.</strong> (2022). The relationship between climate change, variability, and food security: Understanding the impacts and building resilient food systems in West Pokot County, Kenya. <em>Sustainability</em>, 14(2), 765. <a href="https://www.mdpi.com/2071-1050/14/2/765/pdf">PDF</a></li>
+					<li>Fuchs, L. E., <strong>Orero, L.</strong>, Ngoima, S., Kuyah, S., &amp; Neufeldt, H. (2022). Asset-based adaptation project promotes tree and shrub diversity and above-ground carbon stocks in smallholder agroforestry systems in Western Kenya. <a href="http://bitly.ws/rmND">Link</a></li>
+					<li>Fuchs, L. E., <strong>Orero, L.</strong>, &amp; Apondi, V. A. (2021). How to stop wasting money in international development: Using a structured group selection approach to counter procedural inefficiency. <em>World Development Perspectives</em>, 24, 100364. <a href="https://www.sciencedirect.com/science/article/pii/S2452292921000801">Link</a></li>
+					<li>Kamwilu, E., Duguma, L. A., &amp; <strong>Orero, L.</strong> (2021). The potentials and challenges of achieving sustainability through charcoal producer associations in Kenya: A missed opportunity? <em>Sustainability</em>, 13(4), 2288. <a href="https://www.mdpi.com/2071-1050/13/4/2288/pdf">PDF</a></li>
+					<li>Fuchs, L. E., <strong>Orero, L.</strong>, Namoi, N., &amp; Neufeldt, H. (2019). How to effectively enhance sustainable livelihoods in smallholder systems: A comparative study from Western Kenya. <em>Sustainability</em>, 11(6), 1564. <a href="https://www.mdpi.com/2071-1050/11/6/1564">Link</a></li>
+				</ol>
 
-						<!-- Panel -->
-							<section class="panel color4-alt">
-								<div class="intro color4">
-									<h2 class="major">Contact</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
-								</div>
-								<div class="inner columns divided">
-									<div class="span-3-25">
-										<form method="post" action="#">
-											<div class="fields">
-												<div class="field half">
-													<label for="name">Name</label>
-													<input type="text" name="name" id="name" />
-												</div>
-												<div class="field half">
-													<label for="email">Email</label>
-													<input type="email" name="email" id="email" />
-												</div>
-												<div class="field">
-													<label for="message">Message</label>
-													<textarea name="message" id="message" rows="4"></textarea>
-												</div>
-											</div>
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="button primary" /></li>
-											</ul>
-										</form>
-									</div>
-									<div class="span-1-5">
-										<ul class="contact-icons color1">
-											<li class="icon brands fa-twitter"><a href="https://www.twitter.com/orerochevvie">@orerochevvie</a></li>
-											<li class="icon brands fa-kaggle"><a href="https://www.kaggle.com/galleria">@orero</a></li>
-											<li class="icon brands fa-github-f"><a href="https://www.github.com/lordoferos">@lordoferos</a></li>
-											<li class="icon brands fa-instagram"><a href="https://www.instagram.com/orerochevvie">@orerochevvie</a></li>
-											<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/orero1/">@orero</a></li>
-										</ul>
-									</div>
-								</div>
-							</section>
+				<h3 class="sub">Reports and working papers</h3>
+				<p class="note">World Economic Forum reports are cited under the institution's name. I'm a contributing author on items 10, 12, 13 and 14.</p>
+				<ol class="pubs" start="10">
+					<li>World Economic Forum &amp; NTT DATA. (2025). <em>Data and digital readiness for food systems</em>.</li>
+					<li>Lamanna, C., Coe, R., Crossland, M., Fuchs, L. E., Barahona, C., Chiputwa, B., <strong>Orero, L.</strong>, Adoyo, B., &amp; Geck, M. (2024). <em>Developing holistic assessments of food and agricultural systems</em>. <a href="https://www.cifor-icraf.org/publications/pdf_files/WPapers/TPP-WP-4.pdf">PDF</a></li>
+					<li>World Economic Forum &amp; NTT DATA. (2024). <em>Scaling technology adoption for soil health: A focus on Africa</em>. <a href="https://www3.weforum.org/docs/WEF_Scaling_Technology_Adoption_for_Soil_Health_2024.pdf">PDF</a></li>
+					<li>World Economic Forum. (2024). <em>Food and water systems in the intelligent age</em>. <a href="https://www.weforum.org/publications/food-and-water-systems-in-the-intelligent-age/">Link</a></li>
+					<li>World Economic Forum &amp; Boston Consulting Group. (2024). <em>Mainstreaming food innovation: A roadmap for stakeholders</em>. <a href="https://www.weforum.org/publications/mainstreaming-food-innovation-a-roadmap-for-stakeholders/">Link</a></li>
+					<li>Nyawira, S., Bolo, P., Ntinyari, W., <strong>Orero, L.</strong>, Onyango, K., Manjella, A., … &amp; Fuchs, L. E. (2023). <em>Kenya context assessment report: A desk-top review of the context of agroecological principles of Kiambu and Makueni counties</em>.</li>
+					<li>Fuchs, L. E., Korir, H., Adoyo, B., Bolo, P., Kuria, A., Sakha, M., Gumo, P., Mbelwa, M., Syano, N., Kiruthi, E., &amp; <strong>Levi, O.</strong> (2023). <em>Co-designing on-farm innovations in the Agroecological Living Landscapes (ALLs) in Kenya</em>.</li>
+					<li>Carsan, S., McMullin, S., Obiri, B., Duguma, L., Guuroh, R., Bah, A., <strong>Orero, L.</strong>, &amp; Muthee, K. (2022). <em>Land-seascape food and nutrition profiles</em>. USAID Women Shellfishers and Food Security Project.</li>
+					<li>Crawford, B., Adu-Afarwuah, S., Oaks, F., Kyei-Arthur, F., Chuku, E. O., Okyere, I., Duguma, L., Carsan, S., McMullin, S., Muthee, K., Bah, A., <strong>Orero, L.</strong>, Janha, F., Arnold, C. D., &amp; Kent, K. (2022). <em>The women shellfishers and food security project: Multivariate analysis of the theory of change model</em>. University of Rhode Island.</li>
+					<li>Cunningham, G., Fuchs, L. E., <strong>Orero, L.</strong>, Apondi, V. A., &amp; Kipkorir, L. (2018). <em>The integrated household leaky bucket</em>. Coady Innovation Series, 14. <a href="https://coady.stfx.ca/wp-content/uploads/2018/12/IS14.pdf">PDF</a></li>
+				</ol>
 
-						<!-- Panel -->
-							<section class="panel color2-alt">
-								<div class="intro color2">
-									<h2 class="major">Elements</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam. </p>
-								</div>
-								<div class="inner columns aligned">
-									<div class="span-2-75">
+				<h3 class="sub">Submitted</h3>
+				<ol class="pubs" start="20">
+					<li><strong>Orero, L.</strong>, Fuchs, L. E., Kipkorir, L., Apondi, V., &amp; van Dien, L. C. <em>Giving smallholder farmers back the power over their data: Lessons from western Kenya</em>.</li>
+				</ol>
+			</details>
+		</section>
 
-										<h3 class="major">Text</h3>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+		<section id="contact">
+			<h2>Get in touch</h2>
+			<p>The quickest way to reach me about survey or evaluation work is by email.</p>
+			<ul class="links">
+				<li><a href="mailto:levi@wrangla360.com">levi@wrangla360.com</a></li>
+				<li><a href="https://wrangla360.com">Wrangla360</a></li>
+				<li><a href="https://x.com/leviorero">X / @leviorero</a></li>
+				<li><a href="https://github.com/lordoferos">GitHub / lordoferos</a></li>
+			</ul>
+		</section>
+	</main>
 
-										<h1>Heading Level 1</h1>
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-
-									</div>
-									<div class="span-3">
-
-										<h4>Blockquote</h4>
-										<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
-
-										<h4>Preformatted</h4>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + (i++);
-    deck.shuffle();
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-
-									</div>
-									<div class="span-1-25">
-
-										<h3 class="major">Lists</h3>
-
-										<h4>Unordered</h4>
-										<ul>
-											<li>Lorem ipsum dolor sit.</li>
-											<li>Dolor pulvinar etiam.</li>
-											<li>Etiam vel felis viverra.</li>
-										</ul>
-
-										<h4>Alternate</h4>
-										<ul class="alt">
-											<li>Lorem ipsum dolor sit.</li>
-											<li>Dolor pulvinar etiam.</li>
-											<li>Etiam vel felis viverra.</li>
-											<li>Felis enim feugiat.</li>
-										</ul>
-
-									</div>
-									<div class="span-1-5">
-
-										<h4>Ordered</h4>
-										<ol>
-											<li>Lorem ipsum dolor sit.</li>
-											<li>Dolor pulvinar etiam.</li>
-											<li>Etiam vel felis viverra.</li>
-											<li>Felis enim feugiat.</li>
-											<li>Etiam vel felis lorem.</li>
-										</ol>
-
-										<h4>Actions</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary color2">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-										<ul class="actions stacked">
-											<li><a href="#" class="button primary color2">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-
-									</div>
-									<div class="span-1-25">
-
-										<h4>Icons</h4>
-										<ul class="icons">
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-											<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-										</ul>
-
-										<h4>Contact Icons</h4>
-										<ul class="contact-icons color2">
-											<li class="icon brands fa-twitter"><a href="#">Twitter</a></li>
-											<li class="icon brands fa-facebook-f"><a href="#">Facebook</a></li>
-											<li class="icon brands fa-instagram"><a href="#">Instagram</a></li>
-											<li class="icon brands fa-github"><a href="#">GitHub</a></li>
-											<li class="icon brands fa-medium-m"><a href="#">Medium</a></li>
-										</ul>
-
-									</div>
-									<div class="span-3">
-										<h3 class="major">Table</h3>
-										<h4>Default</h4>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</div>
-									<div class="span-3">
-										<h4>Alternate</h4>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</div>
-									<div class="span-2-25">
-										<h3 class="major">Buttons</h3>
-										<ul class="actions">
-											<li><a href="#" class="button primary color2">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button large">Large</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary color2 icon solid fa-cog">Icon</a></li>
-											<li><a href="#" class="button icon fa-gem">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary color2 disabled">Disabled</span></li>
-											<li><span class="button disabled">Disabled</span></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary color2 circle icon solid fa-cog">Icon</a></li>
-											<li><a href="#" class="button circle icon fa-gem">Icon</a></li>
-										</ul>
-									</div>
-									<div class="span-4-5">
-										<h3 class="major">Form</h3>
-										<form method="post" action="#">
-											<div class="fields">
-												<div class="field third">
-													<label for="demo-name">Name</label>
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-												</div>
-												<div class="field third">
-													<label for="demo-email">Email</label>
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-												</div>
-												<div class="field third">
-													<label for="demo-category">Category</label>
-													<div class="select-wrapper">
-														<select name="demo-category" id="demo-category">
-															<option value="">-</option>
-															<option value="1">Manufacturing</option>
-															<option value="1">Shipping</option>
-															<option value="1">Administration</option>
-															<option value="1">Human Resources</option>
-														</select>
-													</div>
-												</div>
-												<div class="field quarter">
-													<input type="radio" id="demo-priority-low" name="demo-priority" class="color2" checked />
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="field quarter">
-													<input type="radio" id="demo-priority-high" name="demo-priority" class="color2" />
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="field quarter">
-													<input type="checkbox" id="demo-copy" name="demo-copy" class="color2" />
-													<label for="demo-copy">Email a copy</label>
-												</div>
-												<div class="field quarter">
-													<input type="checkbox" id="demo-human" name="demo-human" class="color2" checked />
-													<label for="demo-human">Not a robot</label>
-												</div>
-												<div class="field">
-													<label for="demo-message">Message</label>
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="2"></textarea>
-												</div>
-											</div>
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="primary color2" /></li>
-												<li><input type="reset" value="Reset" /></li>
-											</ul>
-										</form>
-									</div>
-								</div>
-							</section>
-
-						<!-- Copyright -->
-							<div class="copyright">&copy; Levi Orero. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+	<footer class="wrap site-footer">
+		<p>© Levi Orero · Nairobi</p>
+	</footer>
+</body>
 </html>
